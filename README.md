@@ -1,5 +1,6 @@
 # MBADox - Windows Information Gathering PoC
 
+<br>
 <p align="center">
   <a href="https://github.com/0x5070/Windows-Stealer-PoC/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=0x5070/Windows-Stealer-PoC" />
