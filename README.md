@@ -34,7 +34,7 @@ This project was collaboratively developed by Germán Soto Sánchez and Juan Car
 ---
 
 ### 🇪🇸 Uso:
-1. **Ejecución:** Haz doble clic en `MBADox_vX.X.X.bat` or `MBADox_vX.X.X.exe`.
+1. **Ejecución:** Haz doble clic en `MBADox_vX.X.X.bat` o `MBADox_vX.X.X.exe`.
 2. **Privilegios:** Se recomienda **Ejecutar como administrador** para obtener todos los datos (especialmente contraseñas WiFi y detalles de hardware).
 3. **Antivirus:** Al ser un script de recolección de datos, Windows Defender o SmartScreen podrían marcarlo como sospechoso. Si esto ocurre, selecciona *"Más información"* y luego *"Ejecutar de todas formas"*.
 4. **Resultado:** Todos los datos se guardarán automáticamente en un archivo llamado `Data.txt` en tu **Escritorio**.
