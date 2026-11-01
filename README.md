@@ -1,54 +1,89 @@
 # MBADox - Windows Information Gathering PoC
 
-<br>
-<p align="center">
-  <a href="https://github.com/0x5070/Windows-Stealer-PoC/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=0x5070/Windows-Stealer-PoC" />
-  </a>
-</p>
+<sub>Windows System Information | Batch</sub>
+
+---
 
 ## 🇪🇸 Español
-Este script es una prueba de concepto (PoC) de un recolector de información para sistemas Windows escrito en Batch. Extrae artefactos del sistema, configuraciones de red y datos de hardware.
-Este proyecto ha sido desarrollado de manera colaborativa por Germán Soto Sánchez y Juan Carlos Ramírez Gutiérrez, combinando sus conocimientos y experiencia para dar forma a una solución conjunta enfocada en la calidad, el rendimiento y la usabilidad.
 
-## 🇺🇸 English
-This script is a proof of concept (PoC) of an information collector for Windows systems written in Batch. It extracts system artifacts, network configurations, and hardware data.
-This project was collaboratively developed by Germán Soto Sánchez and Juan Carlos Ramírez Gutiérrez, combining their knowledge and experience to create a joint solution focused on quality, performance, and usability.
+### Descripción
 
----
+Prueba de concepto de recopilación de información de sistemas Windows desarrollada en Batch.
 
-## 🇪🇸 Funcionalidades:
-- **Red:** Extracción de IP pública, configuración completa de interfaces y tabla ARP.
-- **WiFi:** Volcado de perfiles WiFi y claves almacenadas en texto claro (`key=clear`).
-- **Hardware:** Detalles técnicos de CPU, RAM, BIOS, GPU y Placa Base.
-- **Software:** Enumeración de programas instalados, procesos activos y persistencia.
-- **Credenciales:** Extracción de credenciales guardadas en el sistema (`cmdkey`).
+El proyecto permite estudiar diferentes categorías de información del sistema operativo, configuraciones de red y características del hardware.
 
-## 🇺🇸 Features:
-- **Network:** Extraction of public IP, full network interface configuration, and ARP table.
-- **WiFi:** Dump of saved WiFi profiles and stored passwords in clear text (key=clear).
-- **Hardware:** Technical details of CPU, RAM, BIOS, GPU, and motherboard.
-- **Software:** Enumeration of installed programs, running processes, and persistence mechanisms.
-- **Credentials:** Extraction of system-stored credentials (cmdkey).
+### Características
 
----
+- **Red:** Información de interfaces y configuración de red.
+- **WiFi:** Investigación de la gestión de perfiles inalámbricos.
+- **Hardware:** Información técnica del sistema.
+- **Software:** Inventario de aplicaciones y procesos.
+- **Sistema:** Estudio de artefactos y configuraciones de Windows.
 
-### 🇪🇸 Uso:
-1. **Ejecución:** Haz doble clic en `MBADox_vX.X.X.bat` o `MBADox_vX.X.X.exe`.
-2. **Privilegios:** Se recomienda **Ejecutar como administrador** para obtener todos los datos (especialmente contraseñas WiFi y detalles de hardware).
-3. **Antivirus:** Al ser un script de recolección de datos, Windows Defender o SmartScreen podrían marcarlo como sospechoso. Si esto ocurre, selecciona *"Más información"* y luego *"Ejecutar de todas formas"*.
-4. **Resultado:** Todos los datos se guardarán automáticamente en un archivo llamado `Data.txt` en tu **Escritorio**.
+### Estructura
 
-### 🇺🇸 Usage:
-1. **Execution:** Double-click `MBADox_vX.X.X.bat` or `MBADox_vX.X.X.exe`.
-2. **Privileges:** It is highly recommended to **Run as Administrator** to retrieve all data (especially WiFi passwords and deep hardware details).
-3. **Antivirus/SmartScreen:** Since this is a data gathering script, Windows Defender might flag it. If prompted, click *"More info"* and then *"Run anyway"*.
-4. **Output:** All collected information will be saved to a file named `Data.txt` on your **Desktop**.
+| Archivo | Descripción |
+|---|---|
+| `MBADox_v2.26.0.bat` | Script principal |
+
+### Seguridad y privacidad
+
+La recopilación de información debe realizarse exclusivamente sobre sistemas propios o con autorización expresa de su propietario.
+
+No se deben recopilar, divulgar ni almacenar credenciales o información personal de terceros.
+
+### Autoría
+
+Proyecto desarrollado colaborativamente por Germán Soto Sánchez y Juan Carlos Ramírez Gutiérrez.
 
 ---
 
-### 🇪🇸 Aviso Legal
-Este proyecto fue desarrollado exclusivamente con fines educativos y de investigación en ciberseguridad. El autor no se hace responsable del mal uso de esta herramienta.
+## 🇬🇧 English
 
-### 🇺🇸 Disclaimer
-This project was developed for educational and ethical security research purposes only. The author is not responsible for any misuse of this tool.
+### Description
+
+A Windows information-gathering proof of concept developed in Batch.
+
+The project explores different categories of operating system information, network configuration and hardware characteristics.
+
+### Features
+
+- **Network:** Network interface information and configuration.
+- **WiFi:** Research into wireless profile management.
+- **Hardware:** Technical system information.
+- **Software:** Application and process inventory.
+- **System:** Research into Windows artifacts and configurations.
+
+### Structure
+
+| File | Description |
+|---|---|
+| `MBADox_v2.26.0.bat` | Main script |
+
+### Security and Privacy
+
+Information gathering must only be performed on systems owned by the user or with explicit authorization from their owner.
+
+Third-party credentials and personal information must not be collected, disclosed or stored.
+
+### Authorship
+
+Collaboratively developed by Germán Soto Sánchez and Juan Carlos Ramírez Gutiérrez.
+
+---
+
+## ⚠️ Disclaimer / Aviso Legal
+
+🇪🇸 Proyecto destinado a fines educativos e investigación en ciberseguridad. Su utilización debe limitarse a sistemas propios o expresamente autorizados.
+
+🇬🇧 This project is intended for educational and cybersecurity research purposes. Its use must be limited to owned or explicitly authorized systems.
+
+## Licencia / License
+
+Este proyecto está publicado bajo la licencia **GNU General Public License v3.0 (GPL-3.0)**.
+
+Consulta el archivo [LICENSE](LICENSE) para leer el texto completo de la licencia.
+
+This project is distributed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+See the [LICENSE](LICENSE) file for the complete license text.
